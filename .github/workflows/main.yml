@@ -24,7 +24,7 @@ jobs:
       - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@4.0.0
         with:
-          server: ftp.amaderthikana.com
+          server:  ftpes://ftp.amaderthikana.com
           username: laravel@laravel.amaderthikana.com
           password: ma426729baba
           server-dir: /laravel.amaderthikana.com/
